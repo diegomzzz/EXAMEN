@@ -1,0 +1,31 @@
+//SEGUNDA PARTE DE LA P1
+
+.container {
+    width: 100%;
+    overflow: hidden; 
+    }
+    /* Left Column */
+    .left-column {
+    width: 30%; 
+    float: left;
+    padding: 10px;
+    }
+    /* Right Column */
+    .right-column {
+    width: 60%; 
+    float: right;
+    padding: 10px;
+    }
+    
+    .center-column{
+    width: 80%; 
+    float: right;
+    padding: 10px;
+    }
+    
+    .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
